@@ -6,18 +6,18 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
-s.name         = "FDHudView" //pod名字
-s.version      = "1.0.0"//版本号
-s.summary      = "Notification HUD for ios."//简介
+s.name         = "FDHudView"
+s.version      = "1.0.0"
+s.summary      = "Notification HUD for ios."
 s.homepage     = "https://github.com/fillinse/FDHudView.git"
 s.license      = "MIT"
 s.author       = { "Fillinse" => "Fillinse@163.com" }
-s.platform     = :ios, "8.0"
-s.source       = { :git => "https://github.com/fillinse/FDHudView.git", :tag => "1.0" }// github上地址和tag
+s.platform     = :ios, "13.0"
+s.source       = { :git => "https://github.com/fillinse/FDHudView.git", :tag => "1.0" }
 s.source_files = "FDHudView/FDHud/*"
-s.framework    = "SwiftUI" //依赖库
+s.framework    = "SwiftUI"
 s.requires_arc = true
 
 end
