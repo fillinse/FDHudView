@@ -44,7 +44,6 @@ struct FDHUDView: View {
             }
          }
       }
-      .ignoresSafeArea()
    }
 }
 
