@@ -17,7 +17,7 @@ struct FDHUDView: View {
       ZStack {
          if viewModel.isShow {
             RoundedRectangle(cornerRadius: 0)
-               .fill(Color.blue)
+               .fill(Color.clear)
             if viewModel.isShow2 {
                VStack {
                   if viewModel.hudType == .text {

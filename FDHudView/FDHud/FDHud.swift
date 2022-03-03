@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-final class FDHud: ObservableObject {
+public final class FDHud: ObservableObject {
    static let manager = FDHud()
    ///这里设置了两个展示的属性，因为展示的过程有动画，但是动画过程中，即加载HUD的过程中，下面的界面还能响应，所以这里的处理是一开始就把底图(透明挡板)放上,然后中间内容做动画
    @Published var isShow: Bool = false
@@ -16,16 +16,16 @@ final class FDHud: ObservableObject {
    var text: String?
    private var isAnimating = false
 
-   static func show(_ text: String) {
+   public static func show(_ text: String) {
       manager.show(text)
    }
-   static func showMessage(_ text: String) {
+   public static func showMessage(_ text: String) {
       manager.showMessage(text)
    }
-   static func showLoading() {
+   public static func showLoading() {
       manager.showLoading()
    }
-   static func hideHud() {
+   public static func hideHud() {
       manager.hideHud()
    }
    private func show(_ text: String) {
