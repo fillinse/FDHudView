@@ -9,13 +9,13 @@
 Pod::Spec.new do |s|
 
 s.name         = "FDHudView"
-s.version      = "1.0.2"
+s.version      = "1.0.3"
 s.summary      = "simple hud for swiftUI."
 s.homepage     = "https://github.com/fillinse/FDHudView.git"
 s.license      = "MIT"
 s.author       = { "Fillinse" => "Fillinse@163.com" }
 s.platform     = :ios, "13.0"
-s.source       = { :git => "https://github.com/fillinse/FDHudView.git", :tag => "1.0.2" }
+s.source       = { :git => "https://github.com/fillinse/FDHudView.git", :tag => "1.0.3" }
 s.source_files = "FDHudView/FDHud/*"
 s.framework    = "SwiftUI"
 s.requires_arc = true
