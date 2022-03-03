@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 s.name         = "FDHudView"
 s.version      = "1.0.3"
 s.summary      = "simple hud for swiftUI."
-s.homepage     = "https://github.com/fillinse/FDHudView.git"
+s.homepage     = "https://github.com/fillinse/FDHudView"
 s.license      = "MIT"
 s.author       = { "Fillinse" => "Fillinse@163.com" }
 s.platform     = :ios, "13.0"
