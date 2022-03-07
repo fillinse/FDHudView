@@ -73,7 +73,7 @@ public final class FDHud: ObservableObject {
    }
 }
 extension View {
-   func showFDHud() -> some View {
+   public func showFDHud() -> some View {
       self.modifier(FHud())
    }
 }
