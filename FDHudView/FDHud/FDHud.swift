@@ -32,26 +32,26 @@ public final class FDHud: ObservableObject {
       self.text = text
       hudType = .textIcon
       isShow = true
-      withAnimation {
+//       withAnimation {
          isShow2 = true
-      }
+//       }
       startDispatchTime()
    }
    private func showMessage(_ text: String) {
       self.text = text
       hudType = .text
       isShow = true
-      withAnimation {
+//       withAnimation {
          isShow2 = true
-      }
+//       }
       startDispatchTime()
    }
    private func showLoading() {
       hudType = .icon
       isShow = true
-      withAnimation {
+//       withAnimation {
          isShow2 = true
-      }
+//       }
    }
    private func hideHud() {
       withAnimation {
